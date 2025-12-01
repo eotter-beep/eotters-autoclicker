@@ -1,6 +1,7 @@
 #!/bin/bash
 
 while true; do
-  xdotool click 1   # left-click
+  $interval = # set interval here
+  xdotool click $interval   # left-click
   sleep 0.001
 done
